@@ -46,12 +46,15 @@ line_length = 79
 test = [
     "pytest==7.3.1",
     "pytest-cov==4.1.0",
+    "faker==23.1.0",
 ]
 all-test = [
     "coverage==7.2.6",
     "iniconfig==2.0.0",
     "packaging==23.1",
     "pluggy==1.0.0",
+    "six==1.16.0",
+    "python-dateutil==2.8.2",
 ]
 dev = [
     "task_manager[test]",
