@@ -122,6 +122,8 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.task_dependencies
+task_dependencies/
 env/
 venv/
 ENV/
